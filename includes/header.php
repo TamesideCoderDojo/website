@@ -23,7 +23,7 @@
 $homeActive = '';
 $aboutUsActive = '';
 $aboutCoderDojoActive = '';
-$aboutStockportDojoActive = '';
+$aboutTamesideDojoActive = '';
 $whatToBringActive = '';
 $mentorsActive = '';
 $parentsActive = '';
@@ -59,10 +59,10 @@ switch($_SERVER['PHP_SELF']) {
 		$aboutCoderDojoActive = ' active ';
 		break;
 
-	// We're on the "When / Where is StockportDojo?" page
+	// We're on the "When / Where is Tameside CoderDojo?" page
     case '/about_stockportdojo.php':
 		$aboutUsActive = ' active ';
-		$aboutStockportDojoActive = ' active ';
+		$aboutTamesideDojoActive = ' active ';
 		break;
 
 	/// We're on the "What will I need to bring?" page
@@ -165,14 +165,14 @@ switch($_SERVER['PHP_SELF']) {
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<!-- Some information about the website to help search engines understand what the page is about -->
-	<meta name="description" content="Stockport CoderDojo is a free code club where children can learn to code in a safe, friendly and relaxed environment.">
-	<meta name="author" content="StockportDojo">
+	<meta name="description" content="Tameside CoderDojo is a free code club where children can learn to code in a safe, friendly and relaxed environment.">
+	<meta name="author" content="Tameside CoderDojo">
 
 	<!-- A link to an icon file that browsers use in favourites, shortcuts and tabs -->
 	<link rel="icon" href="/favicon.ico">
 
 	<!-- The page title that shows up in the browser history, favourites and tabs -->
-	<title>Stockport CoderDojo</title>
+	<title>Tameside CoderDojo</title>
 
 	<!-- Our themed Bootstrap CSS style rules to change the way the page looks -->
 	<link href="/css/bootstrap.css" rel="stylesheet">
@@ -208,7 +208,7 @@ switch($_SERVER['PHP_SELF']) {
 				<span class="icon-bar"></span>
 				<span class="icon-bar"></span>
 			</button>
-			<a class="navbar-brand" href="/">Stockport CoderDojo</a>
+			<a class="navbar-brand" href="/">Tameside CoderDojo</a>
 		</div>
 
 		<!-- The menu buttons that are shown to non-mobile users -->
@@ -234,35 +234,19 @@ switch($_SERVER['PHP_SELF']) {
 					<a href="#" class="dropdown-toggle" data-toggle="dropdown">About Us<span class="caret"></span></a>
 					<ul class="dropdown-menu" role="menu">
 						<li class="<?php echo $aboutCoderDojoActive;?>"><a href="/about_coderdojo.php">What is CoderDojo?</a></li>
-						<li class="<?php echo $aboutStockportDojoActive;?>"><a href="/about_stockportdojo.php">When / Where is StockportDojo?</a></li>
+						<li class="<?php echo $aboutTamesideDojoActive;?>"><a href="/about_tameside_coderdojo.php">When / Where is Tameside CoderDojo?</a></li>
 						<li class="<?php echo $whatToBringActive;?>"><a href="/what_to_bring.php">What will I need to bring?</a></li>
-						<li class="divider"></li>
-						<li class="<?php echo $mentorsActive;?>"><a href="/mentors.php">Who are the Mentors?</a></li>
-						<li class="<?php echo $parentsActive;?>"><a href="/info_for_parents.php">Info for parents</a></li>
 					</ul>
 				</li>
 				<li class="dropdown <?php echo $whatWeDoActive;?>">
 					<a href="#" class="dropdown-toggle" data-toggle="dropdown">What we do<span class="caret"></span></a>
 					<ul class="dropdown-menu" role="menu">
 						<li class="<?php echo $scratchActive;?>"><a href="/scratch.php">Scratch</a></li>
-						<li class="<?php echo $minecraftActive;?>"><a href="/minecraft.php">Minecraft</a></li>
-						<li class="<?php echo $makeyActive;?>"><a href="/makey_makey.php">Makey-makey</a></li>
-						<li class="<?php echo $websitesActive;?>"><a href="/websites.php">Websites</a></li>
 						<li class="<?php echo $raspiActive;?>"><a href="/raspberry_pi.php">Raspberry Pi</a></li>
-						<li class="<?php echo $otherActivityActive;?>"><a href="/other_activities.php">What else?</a></li>
 					</ul>
 				</li>
-                <li class="dropdown <?php echo $whatWeveDoneActive;?>">
-                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">What we've done<span class="caret"></span></a>
-                    <ul class="dropdown-menu" role="menu">
-                        <li class="<?php echo $makerFunActive;?>"><a href="/maker_fun.php">Maker Fun</a></li>
-                        <li class="<?php echo $mothersDayEcardActive;?>"><a href="/mothers_day_ecards.php">Mother's Day E-Cards</a></li>
-                    </ul>
-                </li>
-                <li class="<?php echo $awardsActive;?>" ><a href="/awards.php">Awards</a></li>
-				<li class="<?php echo $contactActive;?>" ><a href="/contact.php">Contact Us</a></li>
-				<li class="<?php echo $bookActive;?>" ><a href="/book.php">Book Your Place</a></li>
-				<li class="<?php echo $usefulStuffActive;?>" ><a href="/useful_stuff.php">Useful Stuff</a></li>
+                <li class="<?php echo $contactActive;?>" ><a href="/contact.php">Contact Us</a></li>
+				<li><a href="https://zen.coderdojo.com/dojo/85a09272-70c3-46e8-9d3a-cb81743aa920">Book Your Place</a></li>
 			</ul>
 		</div><!--/.nav-collapse -->
 	</div>

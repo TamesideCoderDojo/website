@@ -18,7 +18,7 @@ include(dirname(__FILE__) . '/../includes/header.php');
             <h2>Tutorials</h2>
             <div class="col-md-12">
                 <div class="well well-sm">
-                    <p>Below are some of the tutorials we use at the Dojo:</p>
+                    <p>Below are some of the tutorials we use at the CoderDojo:</p>
                     <ul>
                         <li><a href="https://stockportcoderdojo.makes.org/thimble/ODA1NDM3OTUy/stockport-dojo-mothers-day-card-tutorial">Mother's Day e-card</a></li>
                         <li><a href="https://stockportcoderdojo.makes.org/thimble/LTI5NTgyODk5Mg==/stockport-dojo-fathers-day-card-tutorial">Father's Day e-card</a></li>

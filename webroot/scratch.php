@@ -5,7 +5,7 @@
  *
  * This file is the "Scratch" page.
  *
- * Created by Sam from Stockport Dojo - 8th Feb 2015
+ * Created by Sam from Stockport CoderDojo - 8th Feb 2015
  *
  */
 
@@ -44,13 +44,6 @@ include(dirname(__FILE__) . '/../includes/header.php');
                     experienced ninjas although it can be used to create more complicated games
                     with a more detailed knowledge of how the code is applied.</p>
 
-            </div>
-            <div class="well">
-                <h3>What can you do with Scratch?</h3>
-                <p>Here's an example of the kind of thing you can do with Scratch. This is a game made by one of our Ninjas - Lewis B:</p>
-                <ul>
-                    <li><a href="https://scratch.mit.edu/projects/87090582/">Space Invaders By DerpyBooy2004</a></li>
-                </ul>
             </div>
 		</div>
 	</div>

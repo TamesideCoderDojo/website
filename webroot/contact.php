@@ -64,7 +64,7 @@ if (isset($_POST['message'])) {
 		$message.= 'Email: ' . $_POST['senderEmail'] . "\n";
 		$message.= 'Message: ' . $_POST['message'];
 
-		mail('hippyjim@gmail.com, stockportcoderdojo@gmail.com', 'Message From stockportdojo website', $message);
+		mail('hippyjim@gmail.com', 'Message From tamesidedojo website', $message);
 
 	} else {
 		$postedName = $_POST['senderName'];
@@ -91,16 +91,10 @@ include(dirname(__FILE__) . '/../includes/header.php');
 				<h3>Get Social</h3>
 				<p>Find us on social media:</p>
 				<ul>
-					<li><a href="https://twitter.com/intent/user?screen_name=stockportdojo">Follow @stockportdojo on Twitter</a></li>
-					<li><a href="https://www.facebook.com/stockportdojo">Like us on Facebook</a></li>
+					<li><a href="https://twitter.com/intent/user?screen_name=TamesideDojo">Follow @TamesideDojo on Twitter</a></li>
 				</ul>
 				<h3>Get Zen</h3>
-				<p>Find our listing on the <a href="https://zen.coderdojo.com/dojo/906">CoderDojo Zen</a> list of dojos</p>
-			</div>
-			<div class="well">
-				<h3>At Startpoint</h3>
-				<p>You can contact the Startpoint team on</p>
-				<p><span class="glyphicon glyphicon-earphone"></span> 0161 494 9947</p>
+				<p>Find our listing on the <a href="https://zen.coderdojo.com/dojo/85a09272-70c3-46e8-9d3a-cb81743aa920">CoderDojo Zen</a> list of dojos</p>
 			</div>
 		</div>
 		<div class="col-md-5 well">

@@ -19,7 +19,7 @@ include(dirname(__FILE__) . '/../includes/header.php');
 			<img src="/images/logo.gif" alt="CoderDojo Logo" class="col-md-2 logo" />
 			<div class="col-md-10">
 				<h1>Do code.</h1>
-				<p>Stockport CoderDojo is a free code club where young people can learn to code in a safe, friendly and relaxed environment.</p>
+				<p>Tameside CoderDojo is a free code club where young people can learn to code in a safe, friendly and relaxed environment.</p>
 				<p><a class="btn btn-primary btn-lg" role="button" href="/about_coderdojo.php">Learn more &raquo;</a></p>
 			</div>
 		</div>
@@ -36,13 +36,13 @@ include(dirname(__FILE__) . '/../includes/header.php');
 		</div>
 		<div class="col-md-4">
 			<h2>Where / When?</h2>
-			<p>StockportDojo is based in space generously donated by Startpoint Woodley. We hold Dojos every 3rd Sunday of the month. Find out more about our location.</p>
-			<p><a class="btn btn-default" href="/about_stockportdojo.php" role="button">Find StockportDojo &raquo;</a></p>
+			<p>Tameside CoderDojo is based in space generously donated by Active Medlock. We hold CoderDojos every 1st Sunday of the month. Find out more about our location.</p>
+			<p><a class="btn btn-default" href="/about_tameside_coderdojo.php" role="button">Find Tameside CoderDojo &raquo;</a></p>
 		</div>
 		<div class="col-md-4">
 			<h2>Sign me up!</h2>
 			<p>As we're still growing, places are limited so booking for each session is essential. Visit our booking page for details of our next session and to book your place. If you're interested in mentoring, please get in touch through our <a href="/contact.php">Contact Page</a>.</p>
-			<p><a class="btn btn-default" href="/book.php" role="button">Book My Place &raquo;</a></p>
+			<p><a class="btn btn-default" href="https://zen.coderdojo.com/dojo/85a09272-70c3-46e8-9d3a-cb81743aa920" role="button">Book My Place &raquo;</a></p>
 		</div>
 	</div>
 </div> <!-- /container -->

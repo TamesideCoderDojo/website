@@ -5,7 +5,7 @@
  *
  * This file is the "awards" page.
  *
- * Created By Peter from Stockport Dojo - 31st October 2016
+ * Created By Peter from Stockport CoderDojo - 31st October 2016
  *
  */
 

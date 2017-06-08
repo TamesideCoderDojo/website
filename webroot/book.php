@@ -17,7 +17,7 @@ include(dirname(__FILE__) . '/../includes/header.php');
 		<div class="row">
 			<div class="col-md-4">
 				<img class="img-responsive img-thumbnail" src="/images/book_your_place.jpg"
-					 alt="Photograph of Ninjas coding with Minecraft at Stockport Dojo">
+					 alt="Photograph of Ninjas coding with Minecraft at Stockport CoderDojo">
 				<div class="well well-sm" style="margin-top: 1em; max-width: 320px">
 					If you're interested in helping out as a Mentor or Volunteer, please use our <a href="/contact.php">Contact Us page</a> to get in touch.
 				</div>
@@ -26,7 +26,7 @@ include(dirname(__FILE__) . '/../includes/header.php');
 				<h2>Get Me Coding!</h2>
 
 				<p>We run every 3rd Sunday in the month.</p>
-                <p>Our next Dojo is on the 19th February 2017 from 11am to 3pm. Places are limited so please use the form below to book yours. Tickets <?php echo (time() > strtotime('2017-02-01 00:00:01') ) ? 'are available now' : 'will be available from 1st February 2017'; ?>.</p>
+                <p>Our next CoderDojo is on the 19th February 2017 from 11am to 3pm. Places are limited so please use the form below to book yours. Tickets <?php echo (time() > strtotime('2017-02-01 00:00:01') ) ? 'are available now' : 'will be available from 1st February 2017'; ?>.</p>
                 <p><em>Don't forget, Ninjas under 12 will need an adult to stay with them.</em></p>
 				<p class="alert alert-danger"><strong>Extra!</strong> - We're at <a style="color: #FF0;" href="https://makestuff.madlab.org.uk/eventlistings/2017/2/18/central-library-stockport-stockports-digital-festival">Make Stuff in Stockport Central Library</a> from 10am - 4pm on 18th Feb. No need to book, just come along!</p>
 

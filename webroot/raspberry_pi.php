@@ -5,7 +5,7 @@
  *
  * This file is the "Raspberry Pi" page.
  *
- * Created by Steve from Stockport Dojo - 10th March 2015
+ * Created by Steve from Stockport CoderDojo - 10th March 2015
  *
  */
 
@@ -22,7 +22,7 @@ include(dirname(__FILE__) . '/../includes/header.php');
 a computer monitor or TV, and uses a standard keyboard and mouse. It is a 
 capable little device that enables people of all ages to explore computing, 
 and to learn how to program in languages like Scratch and Python.</p>
-            <p>At Stockport CoderDojo we use it to code in Python and <a href="scratch.php">Scratch</a>, make music with Sonic Pi, and make <a href="minecraft.php">Minecraft</a> mods.</p>
+            <p>At Tameside CoderDojo we use it to code in Python and <a href="scratch.php">Scratch</a>, make music with Sonic Pi, and make Minecraft mods.</p>
 		</div>
 		<div class="col-md-5 gutter-right">
 			
