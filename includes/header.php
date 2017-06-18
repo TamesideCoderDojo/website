@@ -246,7 +246,7 @@ switch($_SERVER['PHP_SELF']) {
 					</ul>
 				</li>
                 <li class="<?php echo $contactActive;?>" ><a href="/contact.php">Contact Us</a></li>
-				<li><a href="https://zen.coderdojo.com/dojo/85a09272-70c3-46e8-9d3a-cb81743aa920">Book Your Place</a></li>
+				<li class="<?php echo $bookActive;?>" ><a href="/book.php">Book Your Place</a></li>
 			</ul>
 		</div><!--/.nav-collapse -->
 	</div>
