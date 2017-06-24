@@ -192,6 +192,12 @@ switch($_SERVER['PHP_SELF']) {
 
 	<!-- Bootstrap core JavaScript -->
 	<script src="/js/bootstrap.js"></script>
+    <?php
+    //Include the Google Analytics Tracking code if it exists
+    if (file_exists(dirname(__FILE__) . '/../includes/googleanalytics.php')) {
+        include(dirname(__FILE__) . '/../includes/googleanalytics.php');
+    }
+    ?>
 </head>
 
 <!-- The main body of the page. HTML inside of the body will be displayed -->
