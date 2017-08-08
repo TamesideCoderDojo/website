@@ -44,12 +44,11 @@ include(dirname(__FILE__) . '/../includes/header.php');
                 <h3>Can't make it anymore?</h3>
                 <p>It's no problem - but we'd appreciate if you could let us know. That way, we can make spaces available to those who are waiting.</p>
                 <h3>Contacts</h3>
-                <p>Your main points of contact are our two CoderDojo Champions - Jim Evans & Emma Grant.</p>
                 <p>You can reach us using the contact form on this website, by emailing <a href="mailto:tamesidecoderdojo@gmail.com">tamesidecoderdojo@gmail.com</a>, or on Twitter <a href="https://twitter.com/TamesideDojo">@TamesideDojo</a> </p>
                 <div class="well well-sm">
                     <p>To book your place, sign up through CoderDojo Zen using the button below:</p>
                     <p>
-                        <a class="btn btn-primary btn-lg" href="https://zen.coderdojo.com/dojo/gb/tameside-district/tameside-active-medlock">Visit Zen to Book</a>
+                        <a class="btn btn-primary btn-lg" href="https://zen.coderdojo.com/dojo/gb/tameside-district/tameside">Visit Zen to Book</a>
                     </p>
                 </div>
 
