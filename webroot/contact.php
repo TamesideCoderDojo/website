@@ -64,7 +64,7 @@ if (isset($_POST['message'])) {
 		$message.= 'Email: ' . $_POST['senderEmail'] . "\n";
 		$message.= 'Message: ' . $_POST['message'];
 
-		mail('hippyjim@gmail.com', 'Message From tamesidedojo website', $message);
+		mail('hippyjim@gmail.com, tamesidecoderdojo@gmail.com', 'Message From tamesidedojo website', $message);
 
 	} else {
 		$postedName = $_POST['senderName'];
